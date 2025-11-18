@@ -46,3 +46,10 @@ console.log("Cloned Student:", cloneStudent);
 let newCourses = ["GRED 101", "CPAN 112"];
 let mergedCourses = [...student.courses, ...newCourses];
 console.log("Merged Courses:", mergedCourses);
+
+//Object Methods
+student.courses.push("CPAN 121");
+console.log("Updated Courses:", student.courses);
+
+let totalCourses = student.courses.length; 
+console.log("Total Courses:", totalCourses);
