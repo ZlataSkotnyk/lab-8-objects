@@ -28,3 +28,4 @@ console.log("New Student", newStudent);
 
 console.log("Are this two objects equal?", newStudent === student);
 console.log("Are this two objects(JSON) equal?", JSON.stringify(student) === JSON.stringify(newStudent));
+
