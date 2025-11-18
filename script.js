@@ -37,3 +37,12 @@ let scores = [85, 90, 78, 90];
 let score1, score2;
 [score1, score2] = [85, 90];
 console.log(score1, score2);
+
+//The Spread Operator
+let cloneStudent = {...student};
+cloneStudent.graduationYear = 2028;
+console.log("Cloned Student:", cloneStudent);
+
+let newCourses = ["GRED 101", "CPAN 112"];
+let mergedCourses = [...student.courses, ...newCourses];
+console.log("Merged Courses:", mergedCourses);
