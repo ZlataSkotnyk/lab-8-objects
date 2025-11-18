@@ -53,3 +53,7 @@ console.log("Updated Courses:", student.courses);
 
 let totalCourses = student.courses.length; 
 console.log("Total Courses:", totalCourses);
+
+//Bonus Task
+let averageScore = (scores.reduce((sum, current) => sum + current, 0)) / scores.length;
+console.log("Average Score:", averageScore);
