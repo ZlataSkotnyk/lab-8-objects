@@ -29,3 +29,11 @@ console.log("New Student", newStudent);
 console.log("Are this two objects equal?", newStudent === student);
 console.log("Are this two objects(JSON) equal?", JSON.stringify(student) === JSON.stringify(newStudent));
 
+//Using Destructuring Assignment
+let {name, courses} = student;
+console.log(name, courses);
+
+let scores = [85, 90, 78, 90];
+let score1, score2;
+[score1, score2] = [85, 90];
+console.log(score1, score2);
